@@ -1,0 +1,32 @@
+{
+  "name": "indexer",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Add dev script here'",
+    "build": "echo 'Add build script here'",
+    "test": "echo 'Add test script here'",
+    "lint": "echo 'Add lint script here'",
+    "indexer": "ts-node src/index.ts",
+    "consumer": "ts-node src/consumer.ts"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1459.0",
+    "commander": "^11.0.0",
+    "pino": "^8.15.1",
+    "pino-pretty": "^10.2.0",
+    "scanner": "workspace:*",
+    "solana": "workspace:*",
+    "types": "workspace:*",
+    "datastore": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "@types/pino": "^7.0.5",
+    "eslint-config-custom": "workspace:*",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "tsconfig": "workspace:*",
+    "typescript": "4.5.2"
+  }
+}
